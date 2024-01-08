@@ -31,4 +31,4 @@ console.log(valueInString);//true
 console.log(typeof valueInString)
 
 
-//
+//object datatype see later on many of files we used it takes too many things
