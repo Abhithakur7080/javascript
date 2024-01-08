@@ -26,6 +26,8 @@ let logo = Symbol("it's abhijeet")
 //object ->most important datatype
 
 //check all datatypes;
+// console.log(typeof data);//as a variable
+// console.log(typeof(data));//as a function
 console.table( [
     { value: num, type: typeof num },
     { value: num2, type: typeof num2 },
