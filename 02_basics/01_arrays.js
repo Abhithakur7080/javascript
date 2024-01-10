@@ -35,6 +35,3 @@ console.log(myArr);//[ 0, 1, 2, 3, 4, 6 ] slice only find and give the output bu
 const myArr3 = myArr.splice(1,3);//start with 1th index and ends with 3rd index
 console.log(myArr3);//[ 1, 2, 3 ]
 console.log(myArr);//[ 0, 4, 6 ] splice changes array and get updated
-
-
-

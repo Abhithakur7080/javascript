@@ -20,7 +20,7 @@ console.log(id===newId);//false -> symbol datatype is used for unique so no matt
 
 const bigNumber = 276495923474048n;
 console.log(typeof bigNumber);//bigint
-//NON-PRIMITIVE (REFERENCE)
+//2nd -> NON-PRIMITIVE (REFERENCE)
 //Arrays, Objects, Functions
 const heroes = ["iron man", "captain america", "hulk", "thor"];
 console.log(typeof heroes);//object
