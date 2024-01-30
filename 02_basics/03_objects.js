@@ -45,4 +45,4 @@ user.greetings = function(){
     console.log(`Hello Js User ${this.name}`);
 }
 // console.log(user.greetings);//[Function (anonymous)]
-console.log(user.greetings());//Hello Js User abhijeet
+console.log(user.greetings());//undefined
