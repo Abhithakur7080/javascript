@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Veselin",
+        "last": "Lazović"
+      },
+      "location": {
+        "street": {
+          "number": 5171,
+          "name": "Milorada Popovića"
+        },
+        "city": "Majdanpek",
+        "state": "Pčinja",
+        "country": "Serbia",
+        "postcode": 43418,
+        "coordinates": {
+          "latitude": "64.0586",
+          "longitude": "-65.3072"
+        },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "veselin.lazovic@example.com",
+      "login": {
+        "uuid": "d5d887a5-90e7-4ce4-a67f-339f34e60f7f",
+        "username": "lazyzebra277",
+        "password": "hardware",
+        "salt": "Kb4DU5q4",
+        "md5": "efa1eca8571ed1a1ecd4812e3b7543ba",
+        "sha1": "d75d511fba3bab4a377be1c9958b024e6272b809",
+        "sha256": "db117f9c9af7685a8893aded4266933ab12f63ac33019b6f9eeb9d99676a5580"
+      },
+      "dob": {
+        "date": "1958-06-19T18:54:16.575Z",
+        "age": 65
+      },
+      "registered": {
+        "date": "2014-09-22T09:22:25.479Z",
+        "age": 9
+      },
+      "phone": "012-9409-492",
+      "cell": "067-3377-902",
+      "id": {
+        "name": "SID",
+        "value": "114570315"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/98.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+      },
+      "nat": "RS"
+    }
+  ],
+  "info": {
+    "seed": "adc48d15dbd518cb",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
