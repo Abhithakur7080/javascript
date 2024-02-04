@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #222;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid #aaa;
+    color: #888;
+}
+form{
+    margin-top: 10px;
+    padding: 10px;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+form input{
+    width: 250px;
+    margin-left: auto;
+    padding: 5px;
+}
+form button{
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#results{
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 2px solid #222;
+    text-align: center;
+    background-color: #aaa;
+}
+#results sup{
+    font-size: 10px;
+}
+#weight-guide{
+    margin-top: 20px;
+    border-top: 1.5px solid #222;
+    padding: 10px;
+    color: #444;
+    background-color: #ccc;
+}
+#weight-guide h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#weight-guide p{
+    display: flex;
+    margin-top: 0;
+}
