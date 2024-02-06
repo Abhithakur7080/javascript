@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+      ul li{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-image: linear-gradient( to bottom right, black 50%, white 50%);
+      }
+      ul li:nth-child(6){
+        border-top: 2px solid transparent;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-left: 2px solid transparent;
+      }
+      ul li img {
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      h2 {
+        text-align: center;
+      }
+      ul li a {
+        width: 80px;
+        height: 130px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        background-image: linear-gradient( to bottom right, white 50%, black 50%);
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Amazing photos</h2>
+    <ul id="images" type="none">
+      <li>
+        <img
+          src="https://images.pexels.com/photos/19408674/pexels-photo-19408674/free-photo-of-the-view-of-the-water-and-clock-tower-in-venice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          id="photo1"
+          alt="photo1"
+        />
+      </li>
+      <li>
+        <img
+          src="https://images.pexels.com/photos/17807506/pexels-photo-17807506/free-photo-of-two-beautiful-white-swans-swimming-in-the-lake-jovan-vasiljevic-photography.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          id="photo2"
+          alt="photo2"
+        />
+      </li>
+      <li>
+        <img
+          src="https://images.pexels.com/photos/20094426/pexels-photo-20094426/free-photo-of-a-person-is-swimming-in-a-river-near-a-cliff.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          id="photo3"
+          alt="photo3"
+        />
+      </li>
+      <li>
+        <img
+          src="https://images.pexels.com/photos/20006138/pexels-photo-20006138/free-photo-of-venice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          id="photo4"
+          alt="photo4"
+        />
+      </li>
+      <li>
+        <img
+          src="https://images.pexels.com/photos/20060045/pexels-photo-20060045/free-photo-of-ready-to-fly.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          id="photo5"
+          alt="photo5"
+        />
+      </li>
+      <li>
+        <a href="https://google.com" id="google">Google</a>
+      </li>
+    </ul>
+    <script src="01_events_basics.js"></script>
+  </body>
+</html>

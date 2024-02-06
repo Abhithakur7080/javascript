@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #222;
+}
+h3{
+    color: #fff;
+    font-size: 35px;
+}
+h3 div{
+    font-size: 20px;
+    padding: 10px;
+}
+table td, th{
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+}
+table td{
+    font-weight: 400;
+    color: #444;
+}
